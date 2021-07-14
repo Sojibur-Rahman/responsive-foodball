@@ -122,6 +122,8 @@ body{
         text-align: center;
 }
 
-.icone img{
+.icone .icon{
     width: 30px;
+    height: autox;
+    
 }

@@ -9,7 +9,6 @@ body{
 
 /* --------Header style --------*/
 
-
 .header{
     display: flex;
     align-items: center;
@@ -46,13 +45,18 @@ body{
 }
 .button:hover {
     transform: scale(1.5) rotate(360deg);
-    /* transition: trsnsform 5s ease-in-out; */
     transition-duration: 2s;
 }
 .headers{
     background: #2D25A0;
     ;
 }
+
+/* Transform 2nd button */
+.all-highlights .button:hover{
+    background-color: darkblue;
+}
+
 
 /* <!-- ----------player section 
 ------------------------------- --> */
@@ -95,8 +99,11 @@ body{
     
 }
 .player{
-    /* display: flex; */
+    
     align-items: center;
+}
+.player{
+    box-shadow: 10px 10px 5px  #888888;
 }
 .player img{
     width: 330px;
@@ -139,18 +146,59 @@ body{
 }
 
 
-/* @media Quary */
 
-@media (max-width:700px) {
-    .container{
-        background-color: rgb(243, 26, 26);
-        flex-direction: column;
-    }
+/* Login Form */
+.login-container{
+    display: flex;
+    justify-content: center;
     
 }
-@media (min-width:900px) {
-    .container{
-        background-color: indigo;
-        flex-direction: column;
-    }
+.login-container{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    margin-left: 60px;
 }
+.login-form{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.login-form h2{
+    background-color: rgb(0, 128, 255);
+}
+.login-form input, button{
+    font-size: 1.3em;
+    margin-top: 15px;
+    border: 1px solid rgb(0, 128, 255);
+    padding-left: 5px;
+}
+.login-form button{
+    background-color: rgb(0, 128, 255);;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 0px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* @media Quary */
+
+@media only screen and (max-width: 600px) {
+    body {
+      color: rgb(255, 8, 0);
+    }
+  }
+
+
+  

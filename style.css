@@ -218,5 +218,13 @@ body{
         flex-direction: row;   
     }
   }
+
+  @media only screen and (max-width:688px) {
+      .container {
+          background-color: yellow;
+          display: flex;
+          flex-direction: row;
+      }
+  }
   
  

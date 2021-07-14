@@ -1,5 +1,15 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbfff7;
+}
+
+
 
 /* --------Header style --------*/
+
+
 .header{
     display: flex;
     align-items: center;
@@ -14,6 +24,7 @@
 .left h1{
     color: white;
 }
+
 .button{
     width: 168px;
     height: 44px;
@@ -31,4 +42,86 @@
 .headers{
     background: #2D25A0;
     ;
+}
+
+/* <!-- ----------player section 
+------------------------------- --> */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 50px; */
+    
+    
+}
+.container{
+    
+    /* background-color: #eeecec; */
+
+}
+.top-players{
+    
+    
+    
+}
+.player{
+    margin-top: 50px;
+    background: rgb(240, 240, 240);
+    margin-right: 20px;
+    width: 330px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 15px;
+    
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.player{
+    /* display: flex; */
+    align-items: center;
+}
+.player img{
+    width: 330px;
+    height: 256px;
+}
+
+/* Highlights Section  */
+
+.all-highlights{
+    margin-top: 50px;
+    padding: 50px;
+}
+.main-highlights{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-highlights img{
+
+    width: 500px;
+    height: 400px;
+
+}
+
+/* Footer section */
+.footer-main img{
+        width: 300px;
+        
+}
+.footer-main{
+        text-align: center;
+}
+
+.icone img{
+    width: 30px;
 }

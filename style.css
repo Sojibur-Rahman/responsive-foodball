@@ -39,6 +39,16 @@ body{
     
 }
 
+/* Transform  1st Button */
+
+.button:hover{
+    background-color: rgb(5, 5, 5);
+}
+.button:hover {
+    transform: scale(1.5) rotate(360deg);
+    /* transition: trsnsform 5s ease-in-out; */
+    transition-duration: 2s;
+}
 .headers{
     background: #2D25A0;
     ;
@@ -126,4 +136,21 @@ body{
     width: 30px;
     height: autox;
     
+}
+
+
+/* @media Quary */
+
+@media (max-width:700px) {
+    .container{
+        background-color: rgb(243, 26, 26);
+        flex-direction: column;
+    }
+    
+}
+@media (min-width:900px) {
+    .container{
+        background-color: indigo;
+        flex-direction: column;
+    }
 }

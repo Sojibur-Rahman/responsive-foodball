@@ -211,11 +211,12 @@ body{
   }
 
   @media screen and (max-width: 357px) {
-    body {width: 200px; float: left;}
-    /* .container {margin-left: 216px;} */
+    body {width: 200px; }
+   
     .container{
         display: flex;
         flex-direction: row;   
     }
   }
   
+ 
